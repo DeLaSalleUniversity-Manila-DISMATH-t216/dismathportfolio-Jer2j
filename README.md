@@ -21,9 +21,9 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 | ↔ | Biconditional | iff | if val(p) equals val(q) = 1 , otherwise  0 |  p ↔ q ≡ (p → q) ∧ (q → p) |
 
 - The last thing I learned before the end of the first week was propositional logic.
-- Inverse of p → q: ¬p → ¬q
-- Converse of p → q: q → p
-- Contrapositive of p → q: ¬q → ¬p
+  - Inverse of p → q: ¬p → ¬q
+  - Converse of p → q: q → p
+  - Contrapositive of p → q: ¬q → ¬p
 
 ## Week 2:
 - In the second week, I was introduced to a set of new laws that would be used throughout this course.
@@ -46,12 +46,30 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 - I had my first homework about Superman logic, and it was challenging.
 - Superman does not exist logically!
 - After discussing logical equivalences, the lesson shifted to quantifiers.
-- Two types are:
-- Universal (∀x) - should be true to all values; predicate is true for every element under consideration.
-- Existensial (∃x) - true to atleast one value; one or more element under consideration for which the predicate is true.
-- This week ended with rules of inference.
-- Argument - sequence of statements that end with a conclusion. Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
-- Valid - conclusion of the argument must follow from the true of the preceding statements of the argument. Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q is TAUTOLOGY
-- Fallacy - an invalid argument.
+  - Two types are:
+  - Universal (∀x) - should be true to all values; predicate is true for every element under consideration.
+  - Existensial (∃x) - true to atleast one value; one or more element under consideration for which the predicate is true.
+- This week ended with introduction to rules of inference.
+  - Argument - sequence of statements that end with a conclusion. Ex. (p1 ∧ p2 ∧ p3 ... ∧ pn) → q
+  - Valid - conclusion of the argument must follow from the true of the preceding statements of the argument. Ex. (p1 ∧ p2 ∧ p3 ... ∧             pn) → q is TAUTOLOGY
+  - Fallacy - an invalid argument.
 
 ## Week 3:
+- The week started with a review on the lessons of the first two weeks such as:
+  - Truth Table
+  - Logical Equivalences
+  - Quantifiers
+  - Rules of Inference
+- So far, the hardest and most complexed is the rules of inference.
+
+
+|         Name        ||   Rule of Inference  |            Tautology           |
+|:--------------------:|:------------------------------:|:----------------------:|
+|    Modus ponens      |       p, p→q ∴q         |        (p ∧ (p → q)) → q       |
+|      Modus tollens   |     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
+| Hypothetical syllogism |     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
+|  Disjunctive syllogism |      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |
+|      Addition        |       p ∴p ∨ q       |           p → (p ∨ q)          |
+|      Simplication     |       p ∧ q ∴p       |           (p ∧ q) → p          |
+|       Conjunction      |      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
+|      Resolution       | p ∨ q, ¬p ∨ r ∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | 
