@@ -64,10 +64,10 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 
 |         Name         |   Rule of Inference  |            Tautology           |
 |:--------------------:|:--------------------:|:------------------------------:|
-|    Modus ponens      |      p, p→q ∴q       |        (p ∧ (p → q)) → q       |
-|      Modus tollens   |     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
-|Hypothetical syllogism|     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
-|Disjunctive syllogism |      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |
+|    Modus Ponens      |      p, p→q ∴q       |        (p ∧ (p → q)) → q       |
+|      Modus Tollens   |     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
+|Hypothetical Syllogism|     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
+|Disjunctive Syllogism |      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |
 |      Addition        |       p ∴p ∨ q       |           p → (p ∨ q)          |
 |      Simplication    |       p ∧ q ∴p       |           (p ∧ q) → p          |
 |       Conjunction    |      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
