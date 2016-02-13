@@ -78,6 +78,9 @@ dismathportfolio-Jer2j created by Classroom for GitHub
     - The important steps are as follows:
       - 1. Assume p (antecedent) is true.
       - 2. Prove that q (consequent) is also true through step 1.
+- The definition of odd and even numbers werely clearly stated mathematically.
+  - Odd number: {2k+1 | k ∈ Z}
+  - Even number: {2K | k ∈ Z}
 - As weeks passed by, the lectures get harder and harder that is why I need to study days before the exam.
 
 ## Week 4:
@@ -96,3 +99,26 @@ dismathportfolio-Jer2j created by Classroom for GitHub
     - 2. Show that the assumption will end up in a contradiction.
 - Proof by Equivalence
   - Biconditional: p ↔ q, we show that p → q and q → p
+  - An example was given to understand the proof, "if n is an integer, n is even iff n^2 is even."
+- Rational numbers were clearly explained and defined to me by Sir Cabatuan.
+- I learned more types of proofs that can make mathemical problems in life more logical.
+  
+## Week 5:
+- I learned more about proof by Equivalences.
+- I also learned that in DISMATH, substitution is not a proof. 
+- Proof by Equivalence (Biconditionals)
+  - This can help me understand the proof more, P ↔ Q ≡ (P → Q) ∧ (Q → P)
+  - Important Steps are as follows:
+    - Show P → Q is true.
+    - Show Q → P is true.
+- I was able to answer some exercises in class such as "If n is a positive integer, then n is odd if and only if n^2 is odd."
+- I discovered that substitution can be used as a counterexample to a theorem.
+- Mathematical Induction
+  - My prof explained that the concept of mathematical inductions is "if it starts true and its stay true then it's always true."
+  - It's like a domino or sequence of propositions (P(1), P(2), P(3), P(k), P(k+1), ...).
+  - Important Steps are as Follows:
+    - Basic Step: Show P(1) or P(0) is true
+    - Inductive Steps:
+      - Assume P(k) is true.
+      - Show P(k+1) is also true.
+- I learned how to solve this problem in class "P(n) = 1 + 2 + 3 + … + n = n(n+1)/2."
