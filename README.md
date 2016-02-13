@@ -62,16 +62,16 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   - RULES OF INFERENCE
 - So far, the hardest and most complexed is the rules of inference.
 
-|         Name         |   Rule of Inference  |            Tautology           |
-|:--------------------:|:--------------------:|:------------------------------:|
-|    Modus Ponens      |      p, p→q ∴q       |        (p ∧ (p → q)) → q       |
-|      Modus Tollens   |     ¬q, p→q ∴ ¬p     |       (¬q ∧ (p → q)) → ¬p      |
-|Hypothetical Syllogism|     p→q, q→r ∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
-|Disjunctive Syllogism |      p∨q, ¬p ∴q      |       ((p ∨ q) ∧ ¬p) → q       |
-|      Addition        |       p ∴p ∨ q       |           p → (p ∨ q)          |
-|      Simplication    |       p ∧ q ∴p       |           (p ∧ q) → p          |
-|       Conjunction    |      p, q ∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
-|      Resolution      | p ∨ q, ¬p ∨ r ∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | 
+|         Name         |   Rule of Inference       |            Tautology           |
+|:--------------------:|:-------------------------:|:------------------------------:|
+|    Modus Ponens      |      p<br>p→q<br>∴q       |        (p ∧ (p → q)) → q       |
+|      Modus Tollens   |    ¬q<br>p→q<br>∴ ¬p      |       (¬q ∧ (p → q)) → ¬p      |
+|Hypothetical Syllogism|     p→q<br>q→r<br>∴p→r    |  ((p → q) ∧ (q → r)) → (p → r) |
+|Disjunctive Syllogism |     p∨q<br>¬p<br>∴q       |       ((p ∨ q) ∧ ¬p) → q       |
+|      Addition        |         p<br>∴p ∨ q       |           p → (p ∨ q)          |
+|      Simplication    |        p ∧ q<br>∴p        |           (p ∧ q) → p          |
+|       Conjunction    |      p<br>q<br>∴p ∧ q     |      ((p) ∧ (q)) → (p ∧ q)     |
+|      Resolution      | p ∨ q<br>¬p ∨ r<br>∴q ∨ r | ((p ∨ q) ∧ (¬p ∨ r)) → (q ∨ r) | 
 
 - Another lesson was taught in class, this was METHODS OF CONSTRUCTING PROOFS.
   - Direct Proof - way of showing the truth or falsehood of a conditional statement (p → q)
