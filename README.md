@@ -330,19 +330,19 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 - Also started on the *Growth of Functions* often described using Big-O Notation
 
 ## Week 10:
-- Big-O Notation
+- *Big-O Notation*
     - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that:
         |f(x)| ≤ C|g(x)| 
     whenever x > k.
     - Example: f(x)=x^2 + 2x + 1; O(x^2); k=1, C=4
 
-- Big-Omega and Big-Theta Notation
+- *Big-Omega and Big-Theta Notation*
     - Big-O Notation does not provide a lowerbound for the size of f(x). 
         - Big-Omega (Big-Ω) - lower bound
         - Big-Theta (Big-Θ) - both upper and lower bound
 
-- Algorithm Time Complexity - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
-- Division and Modulo Operator
+- *Algorithm Time Complexity* - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- *Division and Modulo Operator*
   - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
   - Q = a div d
   - r = a mod d
