@@ -126,22 +126,21 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 ##Week 6
 - This week was the start for the coverage of quiz 2.
 - The lessons are becoming more challenging compared to the topics in quiz 1.
-- SUMMATION - notation for sum of am, am+1, ..., an is ∑ai=m ai where i is the index of summation.
+- **SUMMATION** - notation for sum of am, am+1, ..., an is ∑ai=m ai where i is the index of summation.
   - It is commonly reffered to as Σ “sigma”
-- RECURSIVE/INDUCTIVE DEFINITION
+- **RECURSIVE/INDUCTIVE DEFINITION**
   - 1. Basis step: specify the value at zero
   - 2. Recursive step: Find a rule for finding its value at an integer number from the values at smaller integers.
   - example: f(0) = 3, f(n+1) = 2f(n) + 3
-- RECURSIVE ALGORITHM - solves a problem by reducing it to an instance with smaller input
-
-- PROGRAM CORRECTNES - to ensure that a program gives the correct output
-  - PROGRAM VERIFICATION - A program is said to be correct if it produces the correct output for every possible input.
+- **RECURSIVE ALGORITHM** - solves a problem by reducing it to an instance with smaller input
+- **PROGRAM CORRECTNES** - to ensure that a program gives the correct output
+  - **PROGRAM VERIFICATION** - A program is said to be correct if it produces the correct output for every possible input.
     - 1. Show that the correct answer is obtained if the program terminates.(Partial correctness)
     - 2. Show that the program always terminates
-  - PARTIAL CORRECTNESS
+  - **PARTIAL CORRECTNESS**
     - initial assertioN (p)- gives the properties that the input values must have.
     - final assertion (q) - gives the properties that the output of the program should have, if the program did what was intended.
-- HOARE TRIPLE p{S}q
+- **HOARE TRIPLE** p{S}q
   - S is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S
 
 - **RULES OF INFERENCE**
@@ -161,7 +160,7 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   _____________________________________ </br>
     ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
 
-- POWER SERIES
+- **POWER SERIES**
   - ∑∞n = 0 anxn ;  where a0, a1, a2, ... is a given sequence of constants, and x is a real variable.
   - Examples:   1 + r + r2 + r3 + ... = 1/(1-r)
 
@@ -172,7 +171,7 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   - I was introduced to a new sofware called "MIT App Inventor."
   - submitted on March 2, 2016
  
-- SET THEORY
+- **SET THEORY**
   - A set is an unordered collection of distinct objects, which may be anything (including other sets).
     - {f, a, e, n, i, c, l}
   - Empty Set { } = ∅ means no elements
@@ -223,7 +222,7 @@ dismathportfolio-Jer2j created by Classroom for GitHub
      - function is both one - to - one and onto.
 
 ## Week 8:
-- ALGORITHMS - A finite set of precise instructions for performing a computation or for solving a problem.
+- **ALGORITHMS** - A finite set of precise instructions for performing a computation or for solving a problem.
     - *Properties of Algorithms*
       - INPUT - has input values from a specified set 
       - OUTPUT - solution to the problem 
@@ -232,7 +231,7 @@ dismathportfolio-Jer2j created by Classroom for GitHub
       - FINITENESS - produce the desired output 
       - EFFECTIVENESS - perform exactly and in a finite amount of time 
       - GENERALITY - applicable for all problems of the desired form
-- PSEUDOCODE
+- **PSEUDOCODE**
     - high - level desciption of an algorithm that uses the structural conventions of a programming language 
     - intended for human reading
     - Preconditions - describe valid input
@@ -330,19 +329,19 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 - Also started on the *Growth of Functions* often described using Big-O Notation
 
 ## Week 10:
-- *Big-O Notation*
+- **Big-O Notation**
     - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that:
         |f(x)| ≤ C|g(x)| 
     whenever x > k.
     - Example: f(x)=x^2 + 2x + 1; O(x^2); k=1, C=4
 
-- *Big-Omega and Big-Theta Notation*
+- **Big-Omega and Big-Theta Notation**
     - Big-O Notation does not provide a lowerbound for the size of f(x). 
         - Big-Omega (Big-Ω) - lower bound
         - Big-Theta (Big-Θ) - both upper and lower bound
 
-- *Algorithm Time Complexity* - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
-- *Division and Modulo Operator*
+- **Algorithm Time Complexity** - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- **Division and Modulo Operator**
   - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
   - Q = a div d
   - r = a mod d
