@@ -180,11 +180,6 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   - Set Builder Notation {x | some property that x satisfies}
   - Membership
     - 1 ∈ {1, 2, 3, 4}
-<br></br>
-- **VENN DIAGRAM**
-
-![Image](VennDiagram.png)
-
 
 - **SET IDENTITIES TABLE**
 
@@ -256,8 +251,8 @@ dismathportfolio-Jer2j created by Classroom for GitHub
 
 - Discussed the types of algorithm procedures that we can use when writing a pseudocode
 
-- SEARCHING ALGORITHMS - Problem of locating an algorithm in an ordered list
-    - Linear Search -  finding a particular value in a list that checks each element in sequence until the desired element is found
+- **SEARCHING ALGORITHMS** - Problem of locating an algorithm in an ordered list
+    - *Linear Search* -  finding a particular value in a list that checks each element in sequence until the desired element is found
       - input: x
       - ouput: location, i; loc = i if found, loc = -1 if not found
       
@@ -267,17 +262,72 @@ dismathportfolio-Jer2j created by Classroom for GitHub
       > if i < n then loc = i </br>
       > else loc = -1 </br>
 
-    - Binary Search - comparing the middle values of a list then repeated until the desired output is found.
+    - *Binary Search* - comparing the middle values of a list then repeated until the desired output is found.
+    
+              Require: {a1, a2, ..., ai, ..., an} ≠ ∈ Z, where a1 < a2 < ... < an; x ∈ Z
+              Ensure: result = k, where (ak = x) and k ∈ {1, ..., n} if the element is found; otherwise k = -1
+                i ← -1
+                j ← n
+                while i < j do
+                  mid ← ⌊(i + j)/2⌋
+                  if x > amid then
+                    i ← mid +1
+                  else
+                    j ← mid
+                  end if
+                end while
+                if x == ai then
+                  result ← i
+                else
+                  result ← -1
+                end if
 
-- SORTING ALGORITHMS - Problem of assorting elements into increasing order
-    - Bubble Sort - compares the first two elements then interchanging them if they are in the incorrect order.
-    - Insertion Sort - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+- **SORTING ALGORITHMS** - Problem of assorting elements into increasing order
+    - *Bubble Sort* - compares the first two elements then interchanging them if they are in the incorrect order.
+    
+      Require: {a1, a2, ..., ai, ..., an} ∈ R; n ≥ 2
+              Ensure: {a1, a2, ..., an} where a1 < a2 < ... < an
+                for i = 1 to n-1 do
+                  for j = 1 to n-i do
+                    if aj > aj+1 then
+                      temp ← aj+1
+                      aj+1 ← aj
+                      aj ← temp
+                    end if
+                  end for
+                end for
 
-- GREEDY ALGORITHMS - Algorithms that make what seems to be the "best" choice at each step. Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution
-  - Greedy Change-Making algorithm
+    - *Insertion Sort* - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+    
+    Require: {a1, a2, ..., ai, ..., an} ∈ R; n ≥ 2
+              Ensure: {a1, a2, ..., an} where a1 < a2 < ... < an
+                for j = 2 to n do
+                  i ← 1
+                  while aj > ai do
+                    i ← i + 1
+                  end while
+                  temp ← aj
+                  for k = 0 to j-i-1 do
+                    aj-k = aj-k-1
+                  end for
+                  ai = temp
+                end for
+
+- **GREEDY ALGORITHMS** - Algorithms that make what seems to be the "best" choice at each step. Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution
+  - *Greedy Change* -Making algorithm
+  
+     Require: {c1, c2, ..., ci, ..., cn} ∈ Coin Domination
+                      where c1 > c2 > ... > cn; x - amount of money in cents
+              Ensure: result[n] = minimum number of coins per domination
+                for i = 1 to n do
+                  resulti ← 0
+                  while x ≥ ci do
+                    x ← x - ci
+                    resulti  ← resulti + 1
+                  end while
+                end for
 
 - Also started on the *Growth of Functions* often described using Big-O Notation
-
 
 ## Week 10:
 - Big-O Notation
