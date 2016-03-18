@@ -122,3 +122,177 @@ dismathportfolio-Jer2j created by Classroom for GitHub
       - Assume P(k) is true.
       - Show P(k+1) is also true.
 - I learned how to solve this problem in class "P(n) = 1 + 2 + 3 + … + n = n(n+1)/2."
+
+##Week 6
+- This week was the start for the coverage of quiz 2.
+- The lessons are becoming more challenging compared to the topics in quiz 1.
+- SUMMATION - notation for sum of am, am+1, ..., an is ∑ai=m ai where i is the index of summation.
+  - It is commonly reffered to as Σ “sigma”
+- RECURSIVE/INDUCTIVE DEFINITION
+  - 1. Basis step: specify the value at zero
+  - 2. Recursive step: Find a rule for finding its value at an integer number from the values at smaller integers.
+  - example: f(0) = 3, f(n+1) = 2f(n) + 3
+- RECURSIVE ALGORITHM - solves a problem by reducing it to an instance with smaller input
+
+- PROGRAM CORRECTNES - to ensure that a program gives the correct output
+  - PROGRAM VERIFICATION - A program is said to be correct if it produces the correct output for every possible input.
+    - 1. Show that the correct answer is obtained if the program terminates.(Partial correctness)
+    - 2. Show that the program always terminates
+  - PARTIAL CORRECTNESS
+    - initial assertioN (p)- gives the properties that the input values must have.
+    - final assertion (q) - gives the properties that the output of the program should have, if the program did what was intended.
+- HOARE TRIPLE p{S}q
+  - S is said to be partially correct with respect to the initial assertion p and the final assertion q if whenever p is true for the input values of S and S terminates, then q is true for the output values of S
+
+- **RULES OF INFERENCE**
+ - *COMPOSITION RULE* </br>
+  p{S1}q </br>
+  q{S2}r </br>
+  ______________ </br>
+   ∴ p{S1;S2)r <br>
+  - *CONDITIONAL STATEMENTS* </br>
+  (p ∧ _condition_) {S} q </br>
+  (p ∧ _¬condition_) → q </br>
+  ________________________________________</br>
+    ∴ p {**if** _condition_ **then** _S_} q
+  - *IF-ELSE STATEMENT* </br>
+  (p ∧ _condition_) {S<sub>1</sub>} q </br>
+  (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
+  _____________________________________ </br>
+    ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
+
+- POWER SERIES
+  - ∑∞n = 0 anxn ;  where a0, a1, a2, ... is a given sequence of constants, and x is a real variable.
+  - Examples:   1 + r + r2 + r3 + ... = 1/(1-r)
+
+
+##Week 7
+- Project 0.0:
+  - It was the very first project for DISMATH.
+  - I was introduced to a new sofware called "MIT App Inventor."
+  - submitted on March 2, 2016
+ 
+- SET THEORY
+  - A set is an unordered collection of distinct objects, which may be anything (including other sets).
+    - {f, a, e, n, i, c, l}
+  - Empty Set { } = ∅ means no elements
+    - {∅} is not an empty set
+  - Set Builder Notation {x | some property that x satisfies}
+  - Membership
+    - 1 ∈ {1, 2, 3, 4}
+<br></br>
+- **VENN DIAGRAM**
+
+![Image](VennDiagram.png)
+
+
+- **SET IDENTITIES TABLE**
+
+|  **LAW**  |  **IDENTITY**  |
+| :------: | :-----------------------------: |
+|  Identity Laws  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  Domination Laws  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  Idempotent Laws  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  Complementation Law  |  (A¯)‾ ≡ A  |
+|  Commutative Laws  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+|  Associative Laws  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  Distributive Laws  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  De Morgan's Laws  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  Absorption Laws  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  Complement Laws  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
+- SUBSETS ⊆
+  - A set S is a subset of a set T (denotes S ⊆ T) if all elements of S are also elements of T
+  - Example:  ℕ ⊆ ℤ (every natural number is an integer)
+- POWER SET P(S) = {T|T ⊆ S} - A set of all subsets.
+- CARDINALITY |S| - The number of element it contains
+    - Infinite Cardinalities - alaph-null (0,1,2,3,...)
+<br></br>
+- **FUNCTIONS**
+  - Let A and B be sets. A function f from A to B is an assignment of exactly one element of B to each element of A.
+  -  Functions are also called MAPPINGS or TRANSFORMATIONS.
+    - f: A to B </br>
+       A: domain </br>
+       B: co-domain
+    - Range - actually occuring values
+    - IMAGE
+      - If _f(a) = b_, _b- is the image of _A_.
+      - The range of _f_ is the set of all images of elements of _a_.
+
+- **TYPES OF FUNCTIONS**
+    - One - to - one Function (Injection)
+      - functions that never assign the same value to two different domain elements.
+    - Onto Function (Surjective)
+      - functions have equal range & co-domain.
+    - One - to - one Correspondence (Bijection)
+     - function is both one - to - one and onto.
+
+## Week 8:
+- ALGORITHMS - A finite set of precise instructions for performing a computation or for solving a problem.
+    - *Properties of Algorithms*
+      - INPUT - has input values from a specified set 
+      - OUTPUT - solution to the problem 
+      - DEFINITENESS - defined precisely 
+      - CORRECTNESS - produce the correct output values 
+      - FINITENESS - produce the desired output 
+      - EFFECTIVENESS - perform exactly and in a finite amount of time 
+      - GENERALITY - applicable for all problems of the desired form
+- PSEUDOCODE
+    - high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    - intended for human reading
+    - Preconditions - describe valid input
+    - Postconditions - conditions that the output should satisfy
+- Algorithm example: Finding the Maximum {5,4,1,8,3}
+  - Input: ({a1, a2, a3,..,an} ∈ , Z)
+  - Output: largest 8
+  - Pseudocode
+
+    > max = a1; </br>
+    > for i: 2 to n { </br>
+    >   if(max < ai) </br>
+    >       max = ai} </br>
+
+## Week 9:
+
+- Discussed the types of algorithm procedures that we can use when writing a pseudocode
+
+- SEARCHING ALGORITHMS - Problem of locating an algorithm in an ordered list
+    - Linear Search -  finding a particular value in a list that checks each element in sequence until the desired element is found
+      - input: x
+      - ouput: location, i; loc = i if found, loc = -1 if not found
+      
+      > i=0 </br>
+      > while(i < n and x!=a1) </br>
+      >   i=i+1 </br>
+      > if i < n then loc = i </br>
+      > else loc = -1 </br>
+
+    - Binary Search - comparing the middle values of a list then repeated until the desired output is found.
+
+- SORTING ALGORITHMS - Problem of assorting elements into increasing order
+    - Bubble Sort - compares the first two elements then interchanging them if they are in the incorrect order.
+    - Insertion Sort - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+
+- GREEDY ALGORITHMS - Algorithms that make what seems to be the "best" choice at each step. Selects the best choice at each step, instead of considering all sequences of steps that may lead to optimal solution
+  - Greedy Change-Making algorithm
+
+- Also started on the *Growth of Functions* often described using Big-O Notation
+
+
+## Week 10:
+- Big-O Notation
+    - Let f and g be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants C and k such that:
+        |f(x)| ≤ C|g(x)| 
+    whenever x > k.
+    - Example: f(x)=x^2 + 2x + 1; O(x^2); k=1, C=4
+
+- Big-Omega and Big-Theta Notation
+    - Big-O Notation does not provide a lowerbound for the size of f(x). 
+        - Big-Omega (Big-Ω) - lower bound
+        - Big-Theta (Big-Θ) - both upper and lower bound
+
+- Algorithm Time Complexity - can be expressed in terms of the number of operations used by the algorithm when the input has a particular size.
+- Division and Modulo Operator
+  - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
+  - Q = a div d
+  - r = a mod d
