@@ -345,3 +345,46 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   - let a be an integer and d positive integer. Then there is a unique Q and r with 0 ≤ r < d such that a = dQ + r
   - Q = a div d
   - r = a mod d
+
+## Week 12
+- This is the coverage for quiz 3.
+- I need to study well to get a high grade.
+- **GRAPH THEORY**
+- Graphs are discrete structures consisting of vertices and edges that connect these vertices.
+- A graph G = (V,E) consists of V, a nonempty set of _vertices (or nodes)_ and E, a set of edges. Each edge has either one or two vertices associated with it, called its _endpoints_. An edge is said to _connect_ its endpoints.
+- Isolated is a vertex with 0 degree
+- Pendant is a vertex with 1 degree
+
+- Hand shaking theorem: 2e = ∑deg(v)
+
+- Path - sequence of edges travelling from vertex to vertex along the edges
+- Euler Circuit - passess through every edge and goes back to starting point
+  - A graph with all vertices/nodes having even degrees.
+- Euler Path - simple path containing every edge of the graph
+  - A graph with exactly two vertices/nodes having odd degrees.
+- Hamilton Path - passes through every vertex.
+  - Does not need to pass through all the edges.
+  - Does not have a formula.
+  - It is harder than Euler's path.
+- Hamilton Circuit - passes through every vertex then goes back to the starting point
+  - Does not need to pass through all the edges.
+- **Matrices of Graphs** 
+  - Adjacency of Matrices 
+    - Matric between two vertices.
+    - 1 for adjacent; 0 for non-adjacent
+  - Incidence of Matrices - Matric between vertices and edges
+- Isomorphism of Graphs
+  - same connection, equal nodes and vertices 
+
+- **PLANAR GRAPH**
+- no edges cross in a graph
+- Euler's Formula: r = e - v + 2
+  - r - regions
+  - e - edges
+  - v - vertices
+- Euler's Characteristic: ℵ = r - |e| + |v| = 2
+
+- **HOMEOMORPHIC GRAPHS**
+- can be obtained from the same graph by a sequence of elementary subdivisions
+- Elementary Subdivision - everything is planar graph
+- Kuratowski's Theorem - nonplanar if and only if it contains a subgraph homeophobic to K3,3 and K5
