@@ -448,6 +448,8 @@ dismathportfolio-Jer2j created by Classroom for GitHub
   - Ex. A vending machine
 - **Finite-State Machines with No Output**
 - **Turing Machines**
+  - Alan Turing, the father of computer science.
+  - Imitation Game movie based on his life story.
 - END OF DISMATH CLASS.
 - I will surely miss this class and most especially Sir Cabatuan.
 - I will incorporate what I have learned into my future subjects and projects.
